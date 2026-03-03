@@ -15,7 +15,12 @@ let firstName = "Carlos";
 // let thisYear = 1965;  // would have used this 2 lines of codes if there weren't the first code 
 let birthYear = 1947;
 
-let greeting = "Hello! My name is " + firstName + " " + lastName + " and I am " + (thisYear - birthYear) + " Years old.";
+let fullName = firstName + " " + lastName
+let age = thisYear - birthYear
+
+// let greeting = "Hello! My name is " + firstName + " " + lastName + " and I am " + (thisYear - birthYear) + " Years old.";
+let greeting = "Hello! My name is " + fullName + " and I am " + age + " Years old.";
+
 
 console.log (greeting)
 
